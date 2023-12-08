@@ -1,3 +1,9 @@
+import { GrMoney } from "react-icons/gr";
+import { RiNftLine, RiNftFill } from "react-icons/ri";
+import { GiReceiveMoney } from "react-icons/gi";
+import { BsCashCoin } from "react-icons/bs";
+import { GiProfit } from "react-icons/gi";
+
 const staggerVariants = {
   hidden: { opacity: 0, y: 20 },
   visible: {
@@ -29,177 +35,89 @@ export default function Features() {
                 <div data-aos="zoom-in" data-aos-duration="3000">
                   <div className="flex flex-col items-center space-y-2 border-gray-800 p-4 rounded-lg">
                     <div className="p-2 bg-black bg-opacity-50 rounded-full">
-                      <svg
-                        className=" text-white h-6 w-6 mb-2 opacity-75"
-                        fill="none"
-                        height="24"
-                        stroke="currentColor"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        viewBox="0 0 24 24"
-                        width="24"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <polyline points="22 12 16 12 14 15 10 15 8 12 2 12" />
-                        <path d="M5.45 5.11 2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z" />
-                      </svg>
+                      <GiProfit className="text-white h-8 w-8 mb-2 opacity-75" />
                     </div>
                     <h2 className="text-xl font-bold text-white">
-                      Smart Inbox
+                      Fan-Artists Tipping
                     </h2>
                     <p className="text-zinc-200 dark:text-zinc-100">
-                      Our Smart Inbox feature helps you manage your emails
-                      efficiently by prioritizing important emails.
+                      Directly support your favorite artists by tipping them,
+                      fostering a closer connection between fans and musicians.
                     </p>
                   </div>
                 </div>
                 <div data-aos="zoom-in" data-aos-duration="3000">
                   <div className="flex flex-col items-center space-y-2 border-gray-800 p-4 rounded-lg">
                     <div className="p-2 bg-black bg-opacity-50 rounded-full">
-                      <svg
-                        className=" text-white h-6 w-6 mb-2 opacity-75"
-                        fill="none"
-                        height="24"
-                        stroke="currentColor"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        viewBox="0 0 24 24"
-                        width="24"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path d="m8 6 4-4 4 4" />
-                        <path d="M12 2v10.3a4 4 0 0 1-1.172 2.872L4 22" />
-                        <path d="m20 22-5-5" />
-                      </svg>
+                      <GrMoney className="text-white h-8 w-8 mb-2 opacity-75" />
                     </div>
                     <h2 className="text-xl font-bold text-white">
-                      Seamless Integration
+                      Blockchain Royalty System
                     </h2>
                     <p className="text-zinc-200 dark:text-zinc-100">
-                      Seamless Integration allows you to connect with your
-                      favorite apps and services without leaving your inbox.
+                      Ensure fair and transparent royalty distribution using
+                      blockchain technology, revolutionizing the music industry
+                      compensation model.
                     </p>
                   </div>
                 </div>
                 <div data-aos="zoom-in" data-aos-duration="3000">
                   <div className="flex flex-col items-center space-y-2 border-gray-800 p-4 rounded-lg">
                     <div className="p-2 bg-black bg-opacity-50 rounded-full">
-                      <svg
-                        className=" text-white h-6 w-6 mb-2 opacity-75"
-                        fill="none"
-                        height="24"
-                        stroke="currentColor"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        viewBox="0 0 24 24"
-                        width="24"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z" />
-                        <circle cx="12" cy="12" r="3" />
-                      </svg>
+                      <BsCashCoin className="text-white h-8 w-8 mb-2 opacity-75" />
                     </div>
                     <h2 className="text-xl font-bold text-white">
-                      Advanced Customization
+                      Artist Tokenization & Fanbase Model
                     </h2>
                     <p className="text-zinc-200 dark:text-zinc-100">
-                      With Advanced Customization, you can personalize your
-                      email client to suit your preferences and work style.
+                      Empower artists by tokenizing their work and building a
+                      sustainable fanbase ecosystem through blockchain
+                      innovation.
                     </p>
                   </div>
                 </div>
                 <div data-aos="zoom-in" data-aos-duration="9000">
                   <div className="flex flex-col items-center space-y-2 border-gray-800 p-4 rounded-lg">
                     <div className="p-2 bg-black bg-opacity-50 rounded-full">
-                      <svg
-                        className=" text-white h-6 w-6 mb-2 opacity-75"
-                        fill="none"
-                        height="24"
-                        stroke="currentColor"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        viewBox="0 0 24 24"
-                        width="24"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <circle cx="11" cy="11" r="8" />
-                        <path d="m21 21-4.3-4.3" />
-                      </svg>
+                      <GiReceiveMoney className="text-white h-8 w-8 mb-2 opacity-75" />
                     </div>
                     <h2 className="text-xl font-bold text-white">
-                      Powerful Search
+                      Loyalty Reward System
                     </h2>
                     <p className="text-zinc-200 dark:text-zinc-100">
-                      Our Powerful Search feature allows you to find any email,
-                      contact, or file in seconds.
+                      Recognize and reward loyal users with exclusive perks,
+                      enhancing user engagement and fostering a vibrant music
+                      community.
                     </p>
                   </div>
                 </div>
                 <div data-aos="zoom-in" data-aos-duration="9000">
                   <div className="flex flex-col items-center space-y-2 border-gray-800 p-4 rounded-lg">
                     <div className="p-2 bg-black bg-opacity-50 rounded-full">
-                      <svg
-                        className=" text-white h-6 w-6 mb-2 opacity-75"
-                        fill="none"
-                        height="24"
-                        stroke="currentColor"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        viewBox="0 0 24 24"
-                        width="24"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <rect
-                          height="11"
-                          rx="2"
-                          ry="2"
-                          width="18"
-                          x="3"
-                          y="11"
-                        />
-                        <path d="M7 11V7a5 5 0 0 1 10 0v4" />
-                      </svg>
+                      <BsCashCoin className="text-white h-8 w-8 mb-2 opacity-75" />
                     </div>
                     <h2 className="text-xl font-bold text-white">
-                      Reliable Security
+                      Earn-As-you-Stream Models
                     </h2>
                     <p className="text-zinc-200 dark:text-zinc-100">
-                      With Reliable Security, your data is always safe and
-                      protected.
+                      Allow users to earn rewards while enjoying music, creating
+                      an interactive and incentivized streaming experience for
+                      the community.
                     </p>
                   </div>
                 </div>
                 <div data-aos="zoom-in" data-aos-duration="9000">
                   <div className="flex flex-col items-center space-y-2 border-gray-800 p-4 rounded-lg">
                     <div className="p-2 bg-black bg-opacity-50 rounded-full">
-                      <svg
-                        className=" text-white h-6 w-6 mb-2 opacity-75"
-                        fill="none"
-                        height="24"
-                        stroke="currentColor"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        viewBox="0 0 24 24"
-                        width="24"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path d="m8 6 4-4 4 4" />
-                        <path d="M12 2v10.3a4 4 0 0 1-1.172 2.872L4 22" />
-                        <path d="m20 22-5-5" />
-                      </svg>
+                      <RiNftFill className="text-white h-8 w-8 mb-2 opacity-75" />
                     </div>
                     <h2 className="text-xl font-bold text-white">
-                      Easy Collaboration
+                      NFT Marketplace
                     </h2>
                     <p className="text-zinc-200 dark:text-zinc-100">
-                      Easy Collaboration allows you to share and edit documents
-                      with your team in real time.
+                      Explore and trade unique music-related NFTs, providing
+                      artists and fans with new opportunities in the digital
+                      collectibles space
                     </p>
                   </div>
                 </div>

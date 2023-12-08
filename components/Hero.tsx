@@ -1,5 +1,6 @@
-import { motion } from "framer-motion";
+//import { motion } from "framer-motion";
 
+const { motion } = require("framer-motion");
 import drum from "../public/drum.jpg";
 import Image from "next/image";
 
@@ -44,11 +45,12 @@ const Hero = () => {
           >
             <div className="max-w-[720px]">
               <h1 className="mb-3 pb-4 text-4xl font-bold text-white md:text-6xl">
-                Fast, Reliable and Secure
+                We're not another Streaming Platform
               </h1>
               <p className="mb-6 max-w-[528px] text-xl text-[#aeaeae] md:mb-10">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
-                aliquam, purus sit amet luctus venenatis, lectus
+                Bema is World's First Music Marketplace that embraces a
+                decentralized system of discovery and empowers music to thrive
+                fairly which brings together Music and Metaverse .
               </p>
               <div className="flex items-center">
                 <div className="mr-5 inline-block rounded-full bg-[#FF9500] px-20 py-4 text-center font-bold text-black transition hover:border-black hover:bg-white md:mr-6 lg:mr-8">

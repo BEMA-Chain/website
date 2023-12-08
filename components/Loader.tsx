@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
-import { motion } from "framer-motion";
+//import { Variants } from "framer-motion";
 
-import dynamic from "next/dynamic";
+const { motion, Variants } = require("framer-motion");
 
 const Loader = () => {
   return (

@@ -30,11 +30,11 @@ const MobileAds = () => {
                     </svg>
                   </div>
                   <p className="max-w-xs text-[#636262] md:max-w-[256px]">
-                    Say goodbye to payment headaches with SecurePay!
+                    Decentralized Streaming Experience:
                   </p>
                 </div>
                 <h3 className="text-2xl font-bold md:text-3xl">
-                  Maximize Productivity. Organize Your Time.
+                  Immerse in music without intermediaries;
                 </h3>
               </div>
               <div className="flex flex-col gap-4">
@@ -54,11 +54,11 @@ const MobileAds = () => {
                     </svg>
                   </div>
                   <p className="max-w-xs text-[#636262] md:max-w-[256px]">
-                    Say goodbye to payment headaches with SecurePay!
+                    Fair Royalties in Real-Time:
                   </p>
                 </div>
                 <h3 className="text-2xl font-bold md:text-3xl">
-                  Maximize Productivity. Organize Your Time.
+                  Ending the era of delayed and unjust compensation.
                 </h3>
               </div>
             </div>
@@ -101,11 +101,11 @@ const MobileAds = () => {
                     </svg>
                   </div>
                   <p className="max-w-xs text-[#636262] md:max-w-[256px] md:text-right">
-                    Say goodbye to payment headaches with SecurePay!
+                    Real-Time Data Transparency
                   </p>
                 </div>
                 <h3 className="text-2xl font-bold md:text-right md:text-3xl">
-                  Maximize Productivity. Organize Your Time.
+                  Access clear and real-time insights into your music
                 </h3>
               </div>
               <div className="flex flex-col gap-4 md:items-end">
@@ -125,11 +125,11 @@ const MobileAds = () => {
                     </svg>
                   </div>
                   <p className="max-w-xs text-[#636262] md:max-w-[256px] md:text-right">
-                    Say goodbye to payment headaches with SecurePay!
+                    Blockchain-Powered NFT Collectibles
                   </p>
                 </div>
                 <h3 className="text-2xl font-bold md:text-right md:text-3xl">
-                  Maximize Productivity. Organize Your Time.
+                  Explore and collect exclusive music-related NFTs,
                 </h3>
               </div>
             </div>

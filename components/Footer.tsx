@@ -12,8 +12,8 @@ const Footer = () => {
           <div className="grid grid-cols-[auto_1fr] justify-between gap-10 sm:grid-cols-3 lg:grid-cols-[0.45fr_auto_auto_auto]">
             <div className="flex max-w-[400px] flex-col gap-8 max-[991px]:[grid-area:span_1/span_3/span_1/span_3] max-[479px]:[grid-area:span_1/span_2/span_1/span_2]">
               <p className="text-[#636262]">
-                Lorem ipsum dolor sit amet, &nbsp;elit ut aliquam, purus sit
-                amet luctus
+                Immerse yourself in the world of Music streaming service like
+                you have never seen before!
               </p>
               <div className="mx-0 mb-4 w-full">
                 <form
