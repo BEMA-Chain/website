@@ -13,16 +13,15 @@ const AboutUs = () => {
                   About us
                 </h2>
                 <p className="max-[479px]:text-sm text-[#ffffff]">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Proin fermentum leo vel orci. Dui faucibus in ornare quam
-                  viverra orci sagittis eu. Viverra nam libero justo laoreet sit
-                  amet. Vulputate odio ut enim blandit volutpat maecenas
-                  volutpat blandit. A lacus vestibulum sed arcu non odio
-                  euismod. Feugiat pretium nibh ipsum consequat. Cum sociis
-                  natoque penatibus et. Leo in vitae turpis massa sed. Neque
-                  aliquam vestibulum morbi blandit cursus. Facilisis sed odio
-                  morbi quis. A pellentesque sit amet porttitor eget.
+                  Bema is World's First Music Marketplace that embraces a
+                  decentralized system of discovery and empowers music to thrive
+                  fairly which brings together Music and Metaverse . With the
+                  power of Blockchain technology, artists can be fairly rewarded
+                  for their work and connect with a wide Audience and their Fans
+                  without limits. A Platform where Fans Meet their Icons and
+                  Artists . You have our NFT we will make your Day “ Once in a
+                  LifeTime “ experience.. We're not just a streaming platform
+                  but a music ecosystem.
                 </p>
               </div>
               <div className="flex items-center justify-start gap-4 flex-wrap">
