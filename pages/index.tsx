@@ -1,3 +1,4 @@
+"use client";
 import Homepage from "./Homepage";
 
 import { useEffect } from "react";

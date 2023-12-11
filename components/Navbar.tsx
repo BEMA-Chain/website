@@ -1,5 +1,4 @@
 import { useState } from "react";
-//import { motion, AnimatePresence } from "framer-motion";
 
 const { motion, AnimatePresence } = require("framer-motion");
 import { FiMenu } from "react-icons/fi";

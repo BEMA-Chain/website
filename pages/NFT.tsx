@@ -1,3 +1,4 @@
+"use client";
 import Banner from "@/components/Banner";
 import Bottomtab from "@/components/Bottomtab";
 import Card from "@/components/Card";

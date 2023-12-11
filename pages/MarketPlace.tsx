@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import Sidebar from "../components/Sidebar/index";
 import Bottomtab from "@/components/Bottomtab";

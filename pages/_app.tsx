@@ -1,3 +1,4 @@
+"use client";
 import { AppProps } from "next/app";
 
 import "../styles/globals.scss";

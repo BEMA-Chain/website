@@ -1,3 +1,5 @@
+"use client";
+
 import Banner from "@/components/Banner";
 import Billboard from "@/components/Billboard";
 import Bottomtab from "@/components/Bottomtab";

@@ -1,3 +1,4 @@
+"use client";
 import { useState } from "react";
 import bema1 from "../public/bema1.jpg";
 
