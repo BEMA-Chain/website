@@ -1,4 +1,3 @@
-"use client";
 import Image from "next/image";
 //import metaverse from "../public/metaverse.mp4";
 import { useEffect, useRef } from "react";

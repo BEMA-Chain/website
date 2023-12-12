@@ -1,4 +1,3 @@
-"use client";
 import React from "react";
 import artiste from "../public/artiste6.jpeg";
 
