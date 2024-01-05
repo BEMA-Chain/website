@@ -44,7 +44,7 @@ const NavbarBig = () => {
             x-data="{isOpen: false, menuOne:false}"
           >
             <div className="flex flex-col px-6 py-6 lg:flex-row lg:items-center lg:justify-between lg:px-10 lg:py-4 xl:px-20">
-              <Link href="#">Bema Verse</Link>
+              <Link href="#">BemaVerse</Link>
               <div className="mt-14 flex flex-col space-y-8 lg:mt-0 lg:flex lg:flex-row lg:space-x-1 lg:space-y-0">
                 <div className="relative flex flex-col">
                   <Link

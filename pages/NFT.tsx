@@ -5,6 +5,7 @@ import Loader from "@/components/Loader";
 import NFTBanner from "@/components/NFTBanner";
 import Search from "@/components/Search";
 import Sidebar from "@/components/Sidebar";
+import World from "@/components/World";
 import React, { useEffect, useState } from "react";
 
 const NFT = () => {
@@ -49,6 +50,7 @@ const NFTContainer = () => {
           <h1 className="text-white text-3xl">NFT</h1>
 
           <Card />
+          <World />
         </div>
       </div>
       <Bottomtab />

@@ -1,5 +1,3 @@
-import "../styles/card.module.scss";
-
 import React from "react";
 
 const Card: React.FC = () => {
