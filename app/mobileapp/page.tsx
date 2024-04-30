@@ -1,8 +1,7 @@
+"use client"
 import Image from "next/image";
 import React from "react";
 import { FaStar } from "react-icons/fa";
-
-import download from "../public/download2.png";
 
 const MobileApp = () => {
   return (
@@ -12,8 +11,10 @@ const MobileApp = () => {
           <div className="relative z-10 flex w-64 mx-auto overflow-hidden md:w-80 lg:w-auto">
             <Image
               alt="buck"
-              src={download}
+              src={'/download2.png'}
               className="object-cover w-full h-[30rem] lg:h-[40rem]"
+              height={600}
+              width={600}
             />
           </div>
         </div>

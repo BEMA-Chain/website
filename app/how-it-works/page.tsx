@@ -1,28 +1,25 @@
-import { useState } from "react";
-import bema1 from "../public/bema1.jpg";
-
-import bema2 from "../public/bema2.jpg";
-import bema4 from "../public/bema4.jpg";
-import Image from "next/image";
+'use client';
+import { useState } from 'react';
+import Image from 'next/image';
 
 const HowItWorks = () => {
   const [selectedTab, setSelectedTab] = useState(0); // Initialize with the first tab
 
   const tabData = [
     {
-      title: "Flexibility",
-      content: "Flexibile packages for diffrent artistes",
-      imageSrc: bema2,
+      title: 'Flexibility',
+      content: 'Flexibile packages for diffrent artistes',
+      imageSrc: '/bema2.jpg',
     },
     {
-      title: "Scale",
-      content: "Musicians have ability to scale up there Assets",
-      imageSrc: bema4,
+      title: 'Scale',
+      content: 'Musicians have ability to scale up there Assets',
+      imageSrc: '/bema4.jpg',
     },
     {
-      title: "Support",
-      content: "We provide 24hrs support to clients everytime.",
-      imageSrc: bema1,
+      title: 'Support',
+      content: 'We provide 24hrs support to clients everytime.',
+      imageSrc: '/bema1.jpg',
     },
   ];
 
@@ -54,16 +51,20 @@ const HowItWorks = () => {
                   key={index}
                   className={`flex max-w-sm rounded-md p-4 py-8 text-[#222222] lg:w-[20rem] cursor-pointer ${
                     selectedTab === index
-                      ? "box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 10px"
-                      : "box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 10px"
+                      ? 'box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 10px'
+                      : 'box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 10px'
                   } hover:bg-slate-900 border-r-2 ${
                     selectedTab === index
-                      ? "hover:border-orange-400"
-                      : "hover:border-orange-700"
+                      ? 'hover:border-orange-400'
+                      : 'hover:border-orange-700'
                   }`}
                   onClick={() => handleTabClick(index)}
                 >
-                  <Image alt="" src="" className="w-13 inline-block" />
+                  <Image
+                    alt=""
+                    src=""
+                    className="w-13 inline-block"
+                  />
                   <div className="ml-4 flex flex-col">
                     <p className="font-semibold">{data.title}</p>
                     <p className="text-sm text-[#636262]">{data.content}</p>

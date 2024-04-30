@@ -248,7 +248,7 @@ const Sidebar = () => {
               onClick={() => setClick(false)}
               exact
               activeClassName="active"
-              href="/Homepage"
+              href="/"
             >
               <FaHome className="w-6 h-6" />
               <Text clicked={click}>Home</Text>
@@ -256,7 +256,7 @@ const Sidebar = () => {
             <Item
               onClick={() => setClick(false)}
               activeClassName="active"
-              href="/Music"
+              href="/music"
             >
               <FaMusic className="w-6 h-6" />
               <Text clicked={click}>Music</Text>
@@ -264,7 +264,7 @@ const Sidebar = () => {
             <Item
               onClick={() => setClick(false)}
               activeClassName="active"
-              href="/NFT"
+              href="/nft"
             >
               <SiMarketo className="w-6 h-6" />
               <Text clicked={click}>NFTs</Text>
@@ -273,7 +273,7 @@ const Sidebar = () => {
             <Item
               onClick={() => setClick(false)}
               activeClassName="active"
-              href="/Merchs"
+              href="/merchs"
             >
               <FaStar className="w-6 h-6" />
               <Text clicked={click}>Merchs</Text>
@@ -291,11 +291,11 @@ const Sidebar = () => {
             <Details clicked={profileClick}>
               <Name>
                 <h4>Lara&nbsp;Croft</h4>
-                <Link href="/ProfilePage">view&nbsp;profile</Link>
+                <Link href="/profile">view&nbsp;profile</Link>
               </Name>
 
               <Logout>
-                <Link href="/Login">
+                <Link href="/login">
                   <FaPowerOff className="w-6 h-6 z-50" />
                 </Link>
               </Logout>

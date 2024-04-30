@@ -1,5 +1,6 @@
+"use client"
+import Vision from "@/components/Vision";
 import Image from "next/image";
-import Vision from "../components/Vision";
 
 const AboutUs = () => {
   return (

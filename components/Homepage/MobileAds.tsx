@@ -1,5 +1,4 @@
 import Image from "next/image";
-import mockup from "../public/mockuup.png";
 
 const MobileAds = () => {
   return (
@@ -70,7 +69,7 @@ const MobileAds = () => {
               className="lg:w-[38rem]  mb-[13rem] lg:mb-0 h-[360px] bg-contain bg-[50%_100%] bg-no-repeat [grid-area:3/1/4/3] sm:mt-12 sm:h-[560px] sm:w-full md:mt-0 lg:[grid-area:1/2/1/3]"
             >
               <Image
-                src={mockup}
+                src={'/mockuup.png'}
                 width={500}
                 height={700}
                 alt="mock"
