@@ -1,12 +1,12 @@
-"use client"
-import Banner from "@/components/Banner";
-import Billboard from "@/components/Billboard";
-import Bottomtab from "@/components/Bottomtab";
-import Card from "@/components/Card";
-import CardMerch from "@/components/CardMerch";
-import Loader from "@/components/Loader";
-import Sidebar from "@/components/Sidebar";
-import React, { useEffect, useState } from "react";
+'use client';
+import Banner from '@/components/Banner';
+import Billboard from '@/components/Billboard';
+import Bottomtab from '@/components/Bottomtab';
+import Card from '@/components/Card';
+import CardMerch from '@/components/CardMerch';
+import Loader from '@/components/Loader';
+import Sidebar from '@/components/Sidebar';
+import React, { useEffect, useState } from 'react';
 
 const Merch = () => {
   const [showComponent, setShowComponent] = useState(false);
@@ -21,11 +21,14 @@ const Merch = () => {
 
   return (
     <>
+      <head>
+        <title>Marchandise | BEMA</title>
+      </head>
       {!showComponent && (
         <div>
           <div className="preloader">
             <div className="bar">
-              <Loader />{" "}
+              <Loader />{' '}
             </div>
           </div>
         </div>

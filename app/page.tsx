@@ -7,6 +7,10 @@ import Payment from "@/components/Homepage/Payment";
 import Aos from "aos";
 import { useEffect } from "react";
 
+/**
+ * Landing page of the repo
+ * @page
+ */
 const MainPage = () => {
 
   useEffect(() => {
@@ -17,7 +21,7 @@ const MainPage = () => {
   return (
     <>
       <head>
-        <title>BEMA</title>
+        <title>BEMA - The world's First Music Marketplace that embraces a decentralized system of discovery and empowers music to thrive fairly which brings together Music and Metaverse .</title>
       </head>
 
       <Hero />

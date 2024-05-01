@@ -29,6 +29,9 @@ const HowItWorks = () => {
 
   return (
     <>
+      <head>
+        <title>How it works | BEMA</title>
+      </head>
       <section className="bg-black  overflow-x-hidden">
         <div className="overflow-x-hidden w-screen  px-5 py-16 md:px-10 md:py-24 lg:py-32  flex items-center justify-center  flex-col">
           <h2 className="mb-8 text-3xl text-[#FF9500] font-bold md:mb-12 md:text-4xl lg:mb-16 lg:text-5xl">

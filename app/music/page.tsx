@@ -1,15 +1,15 @@
-"use client"
-import Ads from "@/components/Ads";
-import Banner from "@/components/Banner";
-import Bottomtab from "@/components/Bottomtab";
-import Card from "@/components/Card";
-import CardCollectors from "@/components/CardCollectors";
-import CardMusic2 from "@/components/CardMusic2";
-import Loader from "@/components/Loader";
-import PlayList from "@/components/PlayList";
-import Sidebar from "@/components/Sidebar";
-import Swipe from "@/components/Swipe";
-import React, { useEffect, useState } from "react";
+'use client';
+import Ads from '@/components/Ads';
+import Banner from '@/components/Banner';
+import Bottomtab from '@/components/Bottomtab';
+import Card from '@/components/Card';
+import CardCollectors from '@/components/CardCollectors';
+import CardMusic2 from '@/components/CardMusic2';
+import Loader from '@/components/Loader';
+import PlayList from '@/components/PlayList';
+import Sidebar from '@/components/Sidebar';
+import Swipe from '@/components/Swipe';
+import React, { useEffect, useState } from 'react';
 
 const Music = () => {
   const [showComponent, setShowComponent] = useState(false);
@@ -23,23 +23,15 @@ const Music = () => {
   }, []); // Empty dependency array ensures the effect runs only once on mount
 
   return (
-    // <div className="bg-black">
-    //   <Sidebar />
-    //   <div className="py-8 px-20  h-[100vh]  ">
-    //     <h1 className="text-white">Music</h1>
-    //     <div>
-    //       <h1 className="text-white">Hey</h1>
-
-    //       <Card />
-    //     </div>
-    //   </div>
-    // </div>
     <>
+      <head>
+        <title>Music | BEMA</title>
+      </head>
       {!showComponent && (
         <div>
           <div className="preloader">
             <div className="bar">
-              <Loader />{" "}
+              <Loader />{' '}
             </div>
           </div>
         </div>
