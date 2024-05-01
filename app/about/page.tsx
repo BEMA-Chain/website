@@ -5,6 +5,9 @@ import Image from "next/image";
 const AboutUs = () => {
   return (
     <>
+    <head>
+      <title>About | BEMA</title>
+    </head>
       <section className="bg-black">
         <div className="py-12 md:py-16 lg:py-32 mx-auto w-full max-w-7xl px-5 md:px-10">
           <div className="flex items-stretch max-[991px]:min-h-[auto] max-[991px]:w-full max-[991px]:flex-col grid-cols-1 lg:grid-cols-[65%_30%] gap-8 lg:gap-8">

@@ -1,9 +1,12 @@
-"use client"
-import React from "react";
+'use client';
+import React from 'react';
 
 const Terms = () => {
   return (
     <>
+      <head>
+        <title>Terms and Conditions | BEMA</title>
+      </head>
       <section className="overflow-x-hidden">
         <div className="flex-col flex items-center justify-center px-5 md:px-10">
           <div className="flex-col flex min-w-[100vw] items-center justify-end bg-black py-6 max-[479px]:px-5 h-auto md:h-64">

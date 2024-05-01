@@ -33,7 +33,7 @@ const Hero = () => {
         <Image
           src={'drum.jpg'}
           width={1600}
-          height={1200}
+          height={2000}
           alt="bero"
           className="absolute -z-10 inline-block h-full w-full object-cover"
         />

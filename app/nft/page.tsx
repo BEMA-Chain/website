@@ -1,13 +1,13 @@
-"use client"
-import Banner from "@/components/Banner";
-import Bottomtab from "@/components/Bottomtab";
-import Card from "@/components/Card";
-import Loader from "@/components/Loader";
-import NFTBanner from "@/components/NFTBanner";
-import Search from "@/components/Search";
-import Sidebar from "@/components/Sidebar";
-import World from "@/components/World";
-import React, { useEffect, useState } from "react";
+'use client';
+import Banner from '@/components/Banner';
+import Bottomtab from '@/components/Bottomtab';
+import Card from '@/components/Card';
+import Loader from '@/components/Loader';
+import NFTBanner from '@/components/NFTBanner';
+import Search from '@/components/Search';
+import Sidebar from '@/components/Sidebar';
+import World from '@/components/World';
+import React, { useEffect, useState } from 'react';
 
 const NFT = () => {
   const [showComponent, setShowComponent] = useState(false);
@@ -22,11 +22,14 @@ const NFT = () => {
 
   return (
     <>
+      <head>
+        <title>NFT | BEMA</title>
+      </head>
       {!showComponent && (
         <div>
           <div className="preloader">
             <div className="bar">
-              <Loader />{" "}
+              <Loader />{' '}
             </div>
           </div>
         </div>
