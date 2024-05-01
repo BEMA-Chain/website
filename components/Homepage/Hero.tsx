@@ -1,10 +1,10 @@
 //import { motion } from "framer-motion";
 
 const { motion } = require("framer-motion");
-import drum from "../public/drum.jpg";
 import Image from "next/image";
 
 const Hero = () => {
+
   const animations = [
     {
       initial: { opacity: 0, x: -100 },
@@ -23,6 +23,7 @@ const Hero = () => {
       animate: { opacity: 1, y: 0 },
     },
   ];
+
   const randomAnimation =
     animations[Math.floor(Math.random() * animations.length)];
 
@@ -30,7 +31,7 @@ const Hero = () => {
     <>
       <section className="relative">
         <Image
-          src={drum}
+          src={'drum.jpg'}
           width={1600}
           height={1200}
           alt="bero"
@@ -45,10 +46,10 @@ const Hero = () => {
           >
             <div className="max-w-[720px]">
               <h1 className="mb-3 pb-4 text-4xl font-bold text-white md:text-6xl">
-                We're not another Streaming Platform
+                We're not just another streaming platform
               </h1>
               <p className="mb-6 max-w-[528px] text-xl text-[#aeaeae] md:mb-10">
-                Bema is World's First Music Marketplace that embraces a
+                Bema is the world's First Music Marketplace that embraces a
                 decentralized system of discovery and empowers music to thrive
                 fairly which brings together Music and Metaverse .
               </p>

@@ -1,9 +1,7 @@
+"use client"
 import React from "react";
 import artiste from "../public/artiste6.jpeg";
 
-import artiste1 from "../public/artiste1.jpg";
-import artiste2 from "../public/artiste2.jpeg";
-import artiste3 from "../public/artiste3.jpeg";
 import Image from "next/image";
 import {
   FaFacebook,
@@ -24,7 +22,7 @@ const ProfilePage = () => {
         <div className="relative flex justify-center">
           <Image
             className="w-40 h-40 rounded-full"
-            src={artiste}
+            src={"/artiste1.jpg"}
             alt=""
             width={300}
             height={300}
@@ -67,21 +65,21 @@ const ProfilePage = () => {
               width={100}
               height={100}
               className="w-10 h-10 border-2 border-white rounded-full dark:border-gray-800"
-              src={artiste1}
+              src={"/artiste1.jpeg"}
               alt=""
             />
             <Image
               width={100}
               height={100}
               className="w-10 h-10 border-2 border-white rounded-full dark:border-gray-800"
-              src={artiste2}
+              src={'/artiste2.jpeg'}
               alt=""
             />
             <Image
               width={100}
               height={100}
               className="w-10 h-10 border-2 border-white rounded-full dark:border-gray-800"
-              src={artiste3}
+              src={'/artiste3.jpeg'}
               alt=""
             />
             <a

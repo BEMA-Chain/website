@@ -1,3 +1,4 @@
+"use client"
 import Ads from "@/components/Ads";
 import Banner from "@/components/Banner";
 import Bottomtab from "@/components/Bottomtab";

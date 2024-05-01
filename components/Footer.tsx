@@ -151,7 +151,7 @@ const Footer = () => {
             </div>
             <div className="text-center">
               <Link
-                href="/Terms"
+                href="/terms"
                 className="inline-block py-2 pl-5 pr-0 font-bold text-[#636262] transition hover:text-white max-[479px]:px-2.5 lg:pl-12"
               >
                 Terms of Service
@@ -163,7 +163,7 @@ const Footer = () => {
                 License
               </a>
               <Link
-                href="/Terms"
+                href="/terms"
                 className="inline-block py-2 pl-5 pr-0 font-bold text-[#636262] transition hover:text-white max-[479px]:px-2.5 lg:pl-12"
               >
                 Privacy Policy
